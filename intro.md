@@ -2,7 +2,7 @@ This whole project started because *Project Hail Mary* was recommended to me bec
 
 Based on recent conversations, I'm about the only person that doesn't think that this shit-rock, disguised and marketed as hard sci-fi, is the greatest fucking movie since Footloose.
 
-I'm not without my own personal hangups and smorgasbord of mental health issues, but I'll take my taste and unwavering options to the grave with me - likely alone. 
+I'm not without my own personal hangups and smorgasbord of mental health issues, but I'll take my taste and unwavering opinions to the grave with me - likely alone. 
 
 Anyways, the premise, the science, and the Petrova Band  were cool, but it got totally ruined by a dancing rock and this idiot Deadpool guy—or whatever actor it is who isn't the Deadpool guy, but is basically just as dumb as the Deadpool guy. 
 
