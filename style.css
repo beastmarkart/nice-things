@@ -1,0 +1,319 @@
+:root {
+  --bg-color: #040805;
+  --panel-bg: rgba(10, 17, 11, 0.88);
+  --border-color: #1a3820;
+  --border-bright: #39d353;
+  
+  --text-main: #33ff66;
+  --text-bright: #66ff88;
+  --text-heading: #70ff94;
+  --text-muted: #1e8736;
+  
+  --tier-s: #00ffff;
+  --tier-s-bg: rgba(0, 255, 255, 0.15);
+  --tier-a: #33ff66;
+  --tier-a-bg: rgba(51, 255, 102, 0.15);
+  --tier-b: #ffe600;
+  --tier-b-bg: rgba(255, 230, 0, 0.15);
+  --tier-c: #ff9900;
+  --tier-c-bg: rgba(255, 153, 0, 0.15);
+  --tier-d: #ff3344;
+  --tier-d-bg: rgba(255, 51, 68, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 17px;
+  line-height: 1.65;
+  padding: 30px 20px;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Background Matrix Rain with Ultra-Low Opacity */
+#matrixCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.12;
+}
+
+.terminal-container {
+  max-width: 1450px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.header-section {
+  margin-bottom: 25px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 15px;
+}
+
+.banner-wrapper {
+  width: 100%;
+  max-height: 280px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  margin-bottom: 15px;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  color: var(--text-heading);
+  margin-bottom: 4px;
+}
+
+.status-bar {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.manifesto-section {
+  margin-bottom: 30px;
+}
+
+.terminal-card {
+  background-color: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(2px);
+  padding: 24px;
+}
+
+.terminal-card p {
+  margin-bottom: 16px;
+  color: var(--text-main);
+}
+
+.terminal-card h2 {
+  font-size: 1.5rem;
+  color: var(--text-heading);
+  margin: 24px 0 14px 0;
+  border-bottom: 1px dashed var(--border-color);
+  padding-bottom: 6px;
+}
+
+.terminal-card ul {
+  list-style: none;
+}
+
+.terminal-card ul li {
+  margin-bottom: 14px;
+  padding-left: 24px;
+  position: relative;
+  color: var(--text-main);
+}
+
+.terminal-card ul li strong {
+  color: var(--text-bright);
+}
+
+.terminal-card ul li::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  color: var(--text-bright);
+  font-weight: bold;
+}
+
+.controls-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  background: var(--panel-bg);
+  backdrop-filter: blur(2px);
+  padding: 14px 18px;
+  border: 1px solid var(--border-color);
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  max-width: 500px;
+}
+
+.prompt-symbol {
+  color: var(--text-heading);
+  font-weight: bold;
+}
+
+#searchInput {
+  background: #020503;
+  border: 1px solid var(--border-color);
+  color: var(--text-bright);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.05rem;
+  padding: 10px 14px;
+  width: 100%;
+  outline: none;
+}
+
+#searchInput:focus {
+  border-color: var(--border-bright);
+}
+
+.tier-filter-group {
+  display: flex;
+  gap: 8px;
+}
+
+.tier-btn {
+  background: #020503;
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-family: 'Share Tech Mono', monospace;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.tier-btn:hover, .tier-btn.active {
+  background: var(--text-main);
+  color: #000;
+  border-color: var(--text-main);
+}
+
+.badge-tier {
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 2px;
+  text-align: center;
+  min-width: 40px;
+}
+
+.tier-S { color: var(--tier-s); background: var(--tier-s-bg); border: 1px solid var(--tier-s); }
+.tier-A { color: var(--tier-a); background: var(--tier-a-bg); border: 1px solid var(--tier-a); }
+.tier-B { color: var(--tier-b); background: var(--tier-b-bg); border: 1px solid var(--tier-b); }
+.tier-C { color: var(--tier-c); background: var(--tier-c-bg); border: 1px solid var(--tier-c); }
+.tier-D { color: var(--tier-d); background: var(--tier-d-bg); border: 1px solid var(--tier-d); }
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: var(--panel-bg);
+  backdrop-filter: blur(2px);
+}
+
+th, td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  font-size: 0.98rem;
+  vertical-align: top;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+th {
+  background-color: #020503;
+  color: var(--text-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+tr:hover td {
+  background-color: rgba(51, 255, 102, 0.05);
+}
+
+td strong {
+  color: var(--text-bright);
+}
+
+.mobile-card-section {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .table-view-section {
+    display: none;
+  }
+  
+  .mobile-card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .movie-card {
+    background: var(--panel-bg);
+    backdrop-filter: blur(2px);
+    border: 1px solid var(--border-color);
+    padding: 18px;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+  }
+
+  .card-title {
+    font-size: 1.35rem;
+    color: var(--text-bright);
+    font-weight: bold;
+  }
+
+  .card-meta {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+    color: var(--text-muted);
+  }
+
+  .card-field {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+  }
+
+  .field-label {
+    color: var(--text-heading);
+    font-weight: bold;
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+}

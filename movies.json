@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Ex Machina",
+    "director": "Alex Garland",
+    "year": 2014,
+    "subgenre": "AI / Psychological Sci-Fi",
+    "tier": "S",
+    "premise": "A programmer administers a Turing test to an advanced humanoid AI in isolation to evaluate true machine consciousness.",
+    "dealbreaker": "None. Avoids mainstream tropes, maintains tight narrative logic, and refuses to dumb down its central dilemma.",
+    "review": "A perfectly tight system. Smart narrative, visually sharp, strong acting, and operates flawlessly within its rules."
+  },
+  {
+    "title": "Under the Skin",
+    "director": "Jonathan Glazer",
+    "year": 2013,
+    "subgenre": "Alien / Arthouse Sci-Fi",
+    "tier": "S",
+    "premise": "An extraterrestrial entity in human form lures men into a void to harvest them while slowly experiencing human sensation.",
+    "dealbreaker": "None. Deviates entirely from Hollywood tropes, relying on pure visual mood and atmosphere over exposition.",
+    "review": "Conceptually brilliant, clean, and uncompromisingly artistic. Scarlett Johansson is exceptional; zero mainstream cliches."
+  },
+  {
+    "title": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "year": 2017,
+    "subgenre": "Cyberpunk / Neo-Noir",
+    "tier": "S",
+    "premise": "A replicant blade runner named K uncovers a long-buried secret—a child born to a replicant—that threatens to collapse the social order and sends him searching for Rick Deckard.",
+    "dealbreaker": "Visually stunning with great world-building (the holographic AI girlfriend), but nearly derailed when the Harrison Ford cameo shows up and drags the mood down with legacy sequel baggage.",
+    "review": "Gorgeous visuals, incredible atmosphere, and Ryan Gosling works well playing it flat. The Harrison Ford appearance jumps the shark, but the sheer aesthetic power and concept keep it barely in S tier."
+  },
+  {
+    "title": "Coherence",
+    "director": "James Ward Byrkit",
+    "year": 2013,
+    "subgenre": "Quantum Sci-Fi / Psychological Thriller",
+    "tier": "A",
+    "premise": "A passing comet causes a quantum coherence event, splitting a dinner party into branching parallel realities where different versions of the group interact.",
+    "dealbreaker": "None. Proves low budget is no excuse; relies on tight pacing, clever practical devices (colored glow sticks), and sharp tension without hand-holding.",
+    "review": "Super low budget but near perfect within its confines. Brilliantly handles complex Schrödinger's cat quantum theory, moves fast, and makes you want an immediate rewatch."
+  },
+  {
+    "title": "Annihilation",
+    "director": "Alex Garland",
+    "year": 2018,
+    "subgenre": "Eco-Sci-Fi / Cosmic Horror",
+    "tier": "A",
+    "premise": "A team of scientists enters 'The Shimmer,' an expanding anomalous alien zone where animal and plant DNA undergoes rapid, surreal mutation and refraction.",
+    "dealbreaker": "Strong atmosphere and striking visual concepts, but falls slightly short of the absolute structural perfection needed for S tier.",
+    "review": "Visually compelling and deeply atmospheric cosmic sci-fi. Aesthetically arresting with memorable creature designs, sitting comfortably at the top of the A tier."
+  },
+  {
+    "title": "The Substance",
+    "director": "Coralie Fargeat",
+    "year": 2024,
+    "subgenre": "Body Horror / Satirical Sci-Fi",
+    "tier": "A",
+    "premise": "A fading Hollywood celebrity uses a black-market medical cell-replicating serum to temporarily birth a younger, more idealized version of herself, leading to severe biological and psychological unraveling.",
+    "dealbreaker": "The final act goes completely unhinged, but unlike sloppy genre movies, the chaotic breakdown is intentional to mirror the character's full descent into madness (similar to American Psycho).",
+    "review": "Visually stunning with exceptional practical body horror, sharp sound design, and great effects. Far superior to Possessor in both concept and visceral execution."
+  },
+  {
+    "title": "Snowpiercer",
+    "director": "Bong Joon-ho",
+    "year": 2013,
+    "subgenre": "Post-Apocalyptic / Social Dystopia",
+    "tier": "A",
+    "premise": "After a geoengineering climate experiment freezes the Earth, the remnants of humanity survive on a perpetually moving train strictly segregated by social caste.",
+    "dealbreaker": "Minor structural and logical inconsistencies for entertainment's sake, but functions as necessary momentum rather than cheap Hollywood dumbing down.",
+    "review": "Freaking cool. Incredible pace, strong aesthetic, and sharp exploration of class systems within a closed ecosystem. Just shy of S tier, but top-tier A."
+  },
+  {
+    "title": "Sicario",
+    "director": "Denis Villeneuve",
+    "year": 2015,
+    "subgenre": "Non-Sci-Fi / Crime Thriller",
+    "tier": "A",
+    "premise": "An idealistic FBI agent is recruited into an inter-agency black-ops task force to escalate the drug war along the US-Mexico border, exposing ruthless realpolitik.",
+    "dealbreaker": "Non-sci-fi exception. Flawless execution with zero mainstream bloat, though purely grounded realism rather than speculative fiction.",
+    "review": "Masterclass in tension and cinematography by Roger Deakins. The silhouette shot walking over the hill at sunset into tactical night ops is legendary. High, high A."
+  },
+  {
+    "title": "Blade Runner",
+    "director": "Ridley Scott",
+    "year": 1982,
+    "subgenre": "Cyberpunk / Neo-Noir",
+    "tier": "A",
+    "premise": "In a dystopian 2019 Los Angeles, a burnt-out detective is forced out of retirement to hunt down four rogue, genetically engineered Nexus-6 replicants who returned to Earth to extend their lifespans.",
+    "dealbreaker": "Invented the entire genre aesthetic, but holding it to strict modern standards shows its age: dated 80s pacing, an annoying Harrison Ford, and goofy backflipping acrobatic replicants.",
+    "review": "Pure foundational vibe that spawned all modern cyberpunk. Being the original doesn't give it a free pass to S tier—it's undeniably dated, but the atmosphere and world-building keep it a strong A."
+  },
+  {
+    "title": "The Rose of Nevada",
+    "director": "Mark Jenkin",
+    "year": 2025,
+    "subgenre": "Arthouse Sci-Fi / Mystery",
+    "tier": "B",
+    "premise": "An atmospheric, cryptic narrative revolving around isolation and mysterious coastal phenomena, relying heavily on sensory immersion and fragmented narrative reality.",
+    "dealbreaker": "Flat characters and an intentionally vague plot that requires a post-watch debrief with a friend to fully piece together, though it holds up upon reflection.",
+    "review": "Shot on grainy 16mm with an incredible sensory vibe where you can practically smell the ocean. Hits the sweet spot between the tight clarity of Coherence and the impenetrable convolution of Primer."
+  },
+  {
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "year": 2014,
+    "subgenre": "Hard Sci-Fi / Space Exploration",
+    "tier": "B",
+    "premise": "Earth is dying from blight, forcing an ex-pilot to travel through a wormhole near Saturn to explore habitable exoplanets around a supermassive black hole (Gargantua).",
+    "dealbreaker": "Grounded relativity physics (time dilation on Miller's water planet, black hole mechanics) are ruined by the end when it jumps the shark with 5D bookshelf time travel and 'love transcends dimensions.'",
+    "review": "Outstanding, visually stunning, and scientifically rigorous during the deep-space sequences, but totally sells out at the end for sentimental Hollywood nonsense."
+  },
+  {
+    "title": "Arrival",
+    "director": "Denis Villeneuve",
+    "year": 2016,
+    "subgenre": "Linguistic Sci-Fi / First Contact",
+    "tier": "B",
+    "premise": "Twelve extraterrestrial spacecraft arrive on Earth; a linguist must decipher the circular logograms (Heptapod B) to learn their language, which unlocks nonlinear perception of time.",
+    "dealbreaker": "Intelligent concept and great mood ruined by a generic military-antagonist subplot at the start and an overly sentimental, melodramatic romance forced onto the timeline twist.",
+    "review": "Smart premise and cool visual design with the circular alien script. Sells out to standard Hollywood cliches and emo melodrama instead of staying focused on the core concept."
+  },
+  {
+    "title": "Project Hail Mary",
+    "director": "Phil Lord, Christopher Miller",
+    "year": 2026,
+    "subgenre": "Hard Sci-Fi / Space Survival",
+    "tier": "C",
+    "premise": "An interstellar threat named 'Astrophage' dims the sun via the 'Petrova Band,' sending a lone survivor to Tau Ceti to find a cure.",
+    "dealbreaker": "Ruined by a dancing rock alien and the lead acting like an obnoxious, Deadpool-style quip machine.",
+    "review": "The hard baseline. Strong foundational science and premise undermined by juvenile comic relief and mass-market dumbing down."
+  },
+  {
+    "title": "Primer",
+    "director": "Shane Carruth",
+    "year": 2004,
+    "subgenre": "Hard Sci-Fi / Time Travel",
+    "tier": "C",
+    "premise": "Two engineers accidentally invent a localized time-travel feedback loop using electromagnetic fields, rapidly compounding divergent timelines.",
+    "dealbreaker": "Cool theoretical concept that plays like sci-fi masturbation. Zero aesthetic value, sterile narrative, and so tedious you need a YouTube diagram just to follow it.",
+    "review": "Fascinating time-travel mechanics undermined by boring, visually flat execution. Prioritizes opaque engineering complexity over actual watchable storytelling."
+  },
+  {
+    "title": "Moon",
+    "director": "Duncan Jones",
+    "year": 2009,
+    "subgenre": "Isolation Sci-Fi / Corporate Dystopia",
+    "tier": "D",
+    "premise": "A lone lunar Helium-3 worker nears the end of his contract, discovering his company uses short-lived clones to avoid paying workers.",
+    "dealbreaker": "Retro visuals are neat, but the lead is annoying and the story falls apart the second it gives away the clone twist.",
+    "review": "Good retro aesthetic wasted once the mystery reveals itself early and the clone dynamic falls flat in the second half."
+  },
+  {
+    "title": "Possessor",
+    "director": "Brandon Cronenberg",
+    "year": 2020,
+    "subgenre": "Body Horror / Tech-Thriller",
+    "tier": "D",
+    "premise": "An elite corporate assassin uses brain-implant technology to hijack the bodies of unsuspecting hosts to commit high-profile assassinations, only for her consciousness to fight for control with her target.",
+    "dealbreaker": "Mistook pure disorientation for depth. Relies on flat characters, gratuitous shock-value gore, and a convoluted structure that hides a surprisingly thin narrative.",
+    "review": "Frustratingly hollow. Leaves the viewer with nothing to hold onto, masking a simple, undercooked plot behind aimless disorientation and body-horror tropes just for the sake of having them."
+  },
+  {
+    "title": "Gattaca",
+    "director": "Andrew Niccol",
+    "year": 1997,
+    "subgenre": "Biopunk / Genetic Dystopia",
+    "tier": "D",
+    "premise": "A natural-born 'In-Valid' assumes a paralyzed athlete's genetic identity to qualify for a space mission to Saturn's moon Titan.",
+    "dealbreaker": "Compelling premise that completely lacks pulse or emotional weight. Uma Thurman is flat; turns into sterile soap-opera melodrama.",
+    "review": "Great concept in theory, but cold, inert, and slow. Feels like a flat melodrama rather than a sharp exploration of genetic caste systems."
+  }
+]

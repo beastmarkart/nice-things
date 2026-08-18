@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WHY WE CAN'T HAVE NICE THINGS // SCI-FI INDEX</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <!-- Canvas for faint background matrix numbers -->
+  <canvas id="matrixCanvas"></canvas>
+
+  <main class="terminal-container">
+    <header class="header-section">
+      <div class="banner-wrapper">
+        <img src="header.jpg" alt="Header Banner" class="header-image" onerror="this.parentElement.style.display='none'">
+      </div>
+      <h1>WHY WE CAN'T HAVE NICE THINGS</h1>
+      <div class="status-bar">[ SYSTEM: ACTIVE // SPECULATIVE FICTION EVALUATION ARCHIVE ]</div>
+    </header>
+
+    <section class="manifesto-section">
+      <div class="terminal-card" id="introContainer">
+        <p>Loading archive manifesto...</p>
+      </div>
+    </section>
+
+    <section class="controls-section">
+      <div class="search-box">
+        <span class="prompt-symbol">&gt; SEARCH:</span>
+        <input type="text" id="searchInput" placeholder="Filter by title, director, subgenre, tier..." autocomplete="off">
+      </div>
+      <div class="tier-filter-group" id="tierFilters">
+        <button class="tier-btn active" data-tier="ALL">ALL</button>
+        <button class="tier-btn" data-tier="S">S</button>
+        <button class="tier-btn" data-tier="A">A</button>
+        <button class="tier-btn" data-tier="B">B</button>
+        <button class="tier-btn" data-tier="C">C</button>
+        <button class="tier-btn" data-tier="D">D</button>
+      </div>
+    </section>
+
+    <section class="table-view-section">
+      <div class="table-responsive">
+        <table id="movieTable">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Director</th>
+              <th>Year</th>
+              <th>Subgenre</th>
+              <th>Tier</th>
+              <th>Core Concept / Premise</th>
+              <th>The Dealbreaker</th>
+              <th>Review</th>
+            </tr>
+          </thead>
+          <tbody id="movieTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mobile-card-section" id="mobileCardContainer"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
