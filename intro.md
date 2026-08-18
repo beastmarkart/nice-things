@@ -8,7 +8,7 @@ Anyways, the premise, the science, and the Petrova Band  were cool, but it got t
 
 It proved my exact point: this is why we can't have nice things. People are fucking morons, so studios dumb everything down for jerk-off-giant-soda-drinking-nacho-eating-dual-screen-watching people, and that's why there's nothing good to watch.
 
-Instead of just bitching about it, I decided to put my money where my mouth is, and watch a bunch of hard sci-fi, cyberpunk, and adjacent movies, and see where they actually fall. This is the list. Take it or leave it.
+Instead of just bitching about it, I decided to put my money where my mouth is, and watch a bunch of hard sci-fi, cyberpunk, and adjacent movies, and see where they actually fall. Hail Mary sets the benchmark at a hard C. Ratings A-D, with S as the elite tier. This is the list. Take it or leave it.
 
 ## // EVALUATION FRAMEWORK
 
